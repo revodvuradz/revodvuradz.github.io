@@ -1,0 +1,82 @@
+section {
+    display: flex;
+    height: 500px;
+    padding: 200px 83px 81px 82px;
+    justify-content: center;
+    align-items: center;
+    background: #37517E;
+}
+
+header {
+    width: 615px;
+    height: 430px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+h1 {
+    color: #FFF;
+    height: 60px;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+button {
+    color: #FFF;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    background: #47B2E4; 
+    border: none;
+    cursor: pointer; 
+}
+
+.button1 {
+    display: inline flex;
+    align-items: flex-start;
+    margin-right: 410px; 
+    
+}
+
+
+button:hover {
+    background: linear-gradient(45deg, #1381B0, #47B2E4); /* Warna latar belakang yang berubah saat hover */
+}
+
+
+a {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
+
+form{
+    display: flex;
+    width: 1441px;
+    padding: 50px 426px;
+    align-items: flex-start;
+}
+.join{
+    width: 660px;
+    height: 139px;
+    flex-shrink: 0;
+}
